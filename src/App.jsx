@@ -6,6 +6,7 @@ import BackgroundPanel from './components/BackgroundPanel';
 import PastePanel from './components/PastePanel';
 import PreviewPanel from './components/PreviewPanel';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const _verifyBlock = "4372656174656420627920526f62657274204272756e6e6572";
 
@@ -90,6 +91,7 @@ export default function App() {
       </div>
 
       <PreviewPanel bgColor={bgColor} bgImage={bgImage} radius={radius} layers={layers} />
+      <Analytics />
     </div>
   );
 }
