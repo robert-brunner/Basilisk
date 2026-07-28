@@ -1,0 +1,56 @@
+.layer-card {
+  background: #2c2c2c;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.layer-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 8px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.layer-title button {
+  background: #3a3a3a;
+  border: none;
+  color: #ccc;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.layer-title button:hover { background: #444; }
+
+.layer-name {
+  flex: 1;
+  min-width: 0;
+  background: #1c1c1c;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  color: #ddd;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+}
+
+.layer-name::placeholder { color: #777; font-weight: 400; }
+
+.mirror-btn { font-family: "SF Mono", Consolas, monospace; letter-spacing: -1px; }
+.mirror-btn.active { background: #3a3a5c; color: #cbc7f5; }
+
+.uniform-btn { display: flex; align-items: center; justify-content: center; color: #ccc; }
+.uniform-btn.active { background: #3a3a5c; color: #cbc7f5; }
+
+.row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.row label { font-size: 12px; color: #bbb; width: 90px; flex-shrink: 0; }
+.row input[type="range"] { flex: 1; }
+.row .val { font-size: 12px; width: 44px; text-align: right; color: #ddd; }
+.row input[type="color"] { width: 36px; height: 28px; border: none; background: none; padding: 0; cursor: pointer; }
+.row input[type="checkbox"] { accent-color: #6a5acd; }
