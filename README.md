@@ -5,7 +5,7 @@ A live, in-browser CSS `box-shadow` generator built for neumorphic / soft-UI wor
 Created by [Robert Brunner](https://github.com/robert-brunner)
 
 <p align="center">
-  <img src="./web-app-manifest-512x512.png" width="120" alt="Basilisk icon: a snake's eye" />
+  <img src="public\web-app-manifest-512x512.png" width="120" alt="Basilisk icon: a snake's eye" />
 </p>
 
 ## What it does
